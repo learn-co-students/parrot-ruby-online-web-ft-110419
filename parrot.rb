@@ -2,14 +2,12 @@
 # returns the phrase
 
 def parrot(phrase = "Squawk!")
-  phrase = "Squawk!"
-  puts string
-  puts "Pretty bird!"
-end
+    puts phrase
+    string = "Pretty bird!"
+    sound = phrase
+end    
 
-
-
-
+parrot
 
 
 # describe '#parrot' do
